@@ -1,0 +1,69 @@
+
+
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  width: auto;
+}
+
+.header {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  background-color: rgb(17, 43, 28);
+  color: aliceblue;
+  margin: 0px;
+  top: 0px;
+  border-bottom: 5px solid rgb(33, 212, 33);
+  height: 55px;
+  align-items: center;
+}
+
+.name {
+  margin-right: auto;
+  font-size: 24px;
+  padding: 4px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+nav {
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  padding: 4px;
+  font-size: 22px;
+}
+
+header li {
+  display: inline-block;
+  padding: 0px 30px;
+  color: aliceblue;
+}
+
+/* Code taken from Stack Overflow https://stackoverflow.com/questions/2204634/how-to-disable-automatic-links-coloring-without-selecting-a-color */
+a, a:hover, a:visited, a:active {
+  color: inherit;
+}
+
+main {
+  margin-top: 60px;
+}
+
+.portfolio {
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  color: rgb(35, 93, 60);
+}
+
+h3 {
+  font-size: 16px;
+}
+
+.header .name:hover {
+  color:rgb(25, 214, 66)
+}
+
+.header .nav-links li:hover {
+  transform: scale(1.1);
+  color: floralwhite;
+}
+
