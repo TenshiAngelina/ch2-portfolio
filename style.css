@@ -1,4 +1,9 @@
 
+:root {
+  --dark-green: rgb(17, 43, 28);
+  --light-green: rgb(33, 212, 33);
+  --light-color: aliceblue;
+}
 
 body {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -9,11 +14,11 @@ body {
   display: flex;
   position: fixed;
   width: 100%;
-  background-color: rgb(17, 43, 28);
+  background-color: var(--dark-green);
   color: aliceblue;
   margin: 0px;
   top: 0px;
-  border-bottom: 5px solid rgb(33, 212, 33);
+  border-bottom: 5px solid var(--light-green);
   height: 55px;
   align-items: center;
 }
@@ -28,6 +33,7 @@ body {
 nav {
   flex-wrap: wrap;
   justify-content: flex-end;
+  flex: 
   padding: 4px;
   font-size: 22px;
 }
@@ -48,22 +54,40 @@ main {
 }
 
 .portfolio {
-  font-size: 20px;
-  padding: 10px;
+  font-size: 22px;
+  padding: 20px;
   text-align: center;
   color: rgb(35, 93, 60);
 }
 
 h3 {
-  font-size: 16px;
+  font-size: 18px;
+  padding: 20px;
+  text-align: center;
+  color: rgb(35, 93, 60);
+  
 }
 
 .header .name:hover {
-  color:rgb(25, 214, 66)
+  color: var(--light-green);
 }
 
 .header .nav-links li:hover {
   transform: scale(1.1);
   color: floralwhite;
+}
+
+.projects {
+  display: flex;
+  justify-content: space-around;
+}
+
+.project-image {
+  flex-wrap: wrap;
+
+}
+
+.project-image:hover {
+  transform: scale(1.2,1.2);
 }
 
