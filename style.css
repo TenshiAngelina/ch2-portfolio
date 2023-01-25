@@ -52,6 +52,11 @@ main {
   margin-top: 60px;
 }
 
+img {
+  width: 200px;
+  height: 100px;
+}
+
 .portfolio {
   font-size: 22px;
   padding: 20px;
